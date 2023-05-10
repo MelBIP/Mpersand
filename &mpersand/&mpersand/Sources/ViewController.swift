@@ -26,7 +26,7 @@ class ViewController: BaseViewController {
         checkButton.setTitleColor(.black, for: .normal)
         checkButton.backgroundColor = .lightGray
         checkButton.layer.cornerRadius = 8
-        checkButton.addTarget(self, action: #selector(cehckButtonTap), for: .touchUpInside)
+        checkButton.addTarget(self, action: #selector(checkButtonTap), for: .touchUpInside)
     }
     
     override func addView() {
@@ -43,8 +43,9 @@ class ViewController: BaseViewController {
         checkButton.frame = CGRect(x: 118, y: 473, width: 157, height: 46)
     }
     
-    @objc func cehckButtonTap() {
-        
+    @objc func checkButtonTap() {
+        let contorller = CheckViewController()
+        navigationController?.pushViewController(contorller, animated: true)
     }
 }
 

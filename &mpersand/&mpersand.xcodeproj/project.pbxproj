@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B8D3E582A014FE100C378EF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3E572A014FE100C378EF /* BaseViewController.swift */; };
+		9B8D3E712A0B608300C378EF /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D3E702A0B608300C378EF /* CheckViewController.swift */; };
 		9BD0CC4429FD37E40095369D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0CC4329FD37E40095369D /* AppDelegate.swift */; };
 		9BD0CC4629FD37E40095369D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0CC4529FD37E40095369D /* SceneDelegate.swift */; };
 		9BD0CC4829FD37E40095369D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0CC4729FD37E40095369D /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		9B8D3E572A014FE100C378EF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9B8D3E702A0B608300C378EF /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 		9BD0CC4029FD37E40095369D /* &mpersand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "&mpersand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD0CC4329FD37E40095369D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD0CC4529FD37E40095369D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD0CC4729FD37E40095369D /* ViewController.swift */,
+				9B8D3E702A0B608300C378EF /* CheckViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				9BD0CC4829FD37E40095369D /* ViewController.swift in Sources */,
 				9B8D3E582A014FE100C378EF /* BaseViewController.swift in Sources */,
 				9BD0CC4429FD37E40095369D /* AppDelegate.swift in Sources */,
+				9B8D3E712A0B608300C378EF /* CheckViewController.swift in Sources */,
 				9BD0CC4629FD37E40095369D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
